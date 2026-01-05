@@ -123,7 +123,7 @@ export default function Home() {
             <span className="font-display">& creators</span>
           </h1>
           <p className="mx-auto max-w-2xl text-lg text-slate-400">
-            Curated by Babamosie333 • Instant links, pricing & use cases
+            Created by Babamosie333 • Instant links, pricing & use cases (GitHub)
           </p>
         </div>
 
