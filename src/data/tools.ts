@@ -17,12 +17,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "cody", name: "Cody", url: "https://sourcegraph.com/cody", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
   { id: "replit", name: "Replit Ghostwriter", url: "https://replit.com/site/ghostwriter", category: "Coding", bestFor: "In-browser coding AI", pricing: "Paid" as const },
   { id: "sourcery", name: "Sourcery", url: "https://sourcery.ai", category: "Coding", bestFor: "Python code improvement", pricing: "Free tier" as const },
-  { id: "codepal", name: "CodePal", url: "https://codepal.ai", category: "Coding", bestFor: "Code review & generation", pricing: "Free tier" as const },
-  { id: "mutableai", name: "Mutable AI", url: "https://mutable.ai", category: "Coding", bestFor: "Codebase understanding", pricing: "Waitlist" as const },
-  { id: "polycoder", name: "PolyCoder", url: "https://polycoder.ai", category: "Coding", bestFor: "Multi-language code generation", pricing: "Free tier" as const },
   { id: "codegrepper", name: "CodeGrepper", url: "https://codegrepper.com", category: "Coding", bestFor: "Code search & snippets", pricing: "Free tier" as const },
-  { id: "jupyterlab", name: "JupyterLab AI", url: "https://jupyterlab.ai", category: "Coding", bestFor: "Data science notebooks", pricing: "Free tier" as const },
-  { id: "askvi", name: "AskVi", url: "https://askvi.ai", category: "Coding", bestFor: "Video code learning", pricing: "Free tier" as const },
   { id: "codewhisperer", name: "Amazon CodeWhisperer", url: "https://aws.amazon.com/codewhisperer", category: "Coding", bestFor: "AI coding companion", pricing: "Free tier" as const },
   { id: "intelli", name: "IntelliCode", url: "https://visualstudio.microsoft.com/services/intellicode", category: "Coding", bestFor: "AI-assisted development", pricing: "Free" as const },
   { id: "askcodi", name: "AskCodi", url: "https://askcodi.ai", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
@@ -44,13 +39,8 @@ export const ALL_TOOLS: Tool[] = [
   { id: "designify", name: "Designify", url: "https://designify.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "gamma", name: "Gamma", url: "https://gamma.app", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "pitch", name: "Pitch", url: "https://pitch.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
-  { id: "plus", name: "Plus", url: "https://plus.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
-  { id: "popai", name: "PopAI", url: "https://popai.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
-  { id: "presentationai", name: "PresentationAI", url: "https://presentationai.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "slidesgo", name: "Slidesgo", url: "https://slidesgo.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
-  { id: "tome", name: "Tome", url: "https://tome.app", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "autodraw", name: "AutoDraw", url: "https://autodraw.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
-  { id: "ulizard", name: "Uizard", url: "https://ulizard.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "microsoft designer", name: "Microsoft Designer", url: "https://designer.microsoft.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
 
   // Image (8 tools)
@@ -58,11 +48,9 @@ export const ALL_TOOLS: Tool[] = [
   { id: "firefly", name: "Adobe Firefly", url: "https://firefly.adobe.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "canva", name: "Canva Magic Studio", url: "https://www.canva.com/magic-studio", category: "Image", bestFor: "Social graphics & thumbnails", pricing: "Free tier" as const },
   { id: "recraft", name: "Recraft", url: "https://recraft.ai", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
-  { id: "dall-e", name: "DALL·E", url: "https://dalle.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "ideogram", name: "Ideogram", url: "https://ideogram.ai", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "flux.1", name: "Flux.1", url: "https://flux1.ai", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "starryai", name: "StarryAI", url: "https://starryai.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
-  { id: "stabled", name: "Stable Diffusion", url: "https://stablediffusion.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
 
 
   // Chat & Writing
@@ -71,17 +59,13 @@ export const ALL_TOOLS: Tool[] = [
   { id: "perplexity", name: "Perplexity AI", url: "https://perplexity.ai", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "deepseek", name: "DeepSeek", url: "https://www.deepseek.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "Gemini", name: "Gemini", url: "https://gemini.google.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
-  { id: "Grok", name: "Grok", url: "https://www.grok.ai", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "Meta AI", name: "Meta AI", url: "https://meta.ai", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "MS Copilot", name: "MS Copilot", url: "https://copilot.microsoft.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
 
   // Video
   { id: "runway", name: "Runway ML", url: "https://runwayml.com", category: "Video", bestFor: "AI video generation", pricing: "Paid" as const },
   { id: "descript", name: "Descript", url: "https://descript.com", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
-  { id: "sora", name: "Sora", url: "https://sora.ai", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
-  { id: "haiper", name: "Haiper", url: "https://haiper.ai", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
   { id: "invideo", name: "InVideo", url: "https://invideo.io", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
-  { id: "kling", name: "Kling", url: "https://kling.com", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
   { id: "krea", name: "Krea", url: "https://krea.ai", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
   { id: "luma", name: "Luma", url: "https://luma.ai", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
   { id: "pika", name: "Pika", url: "https://pika.art", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
@@ -91,7 +75,6 @@ export const ALL_TOOLS: Tool[] = [
   { id: "notion-ai", name: "Notion AI", url: "https://www.notion.so/product/ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Paid" as const },
   { id: "mem", name: "Mem", url: "https://mem.ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
   { id: "grammarly", name: "Grammarly", url: "https://www.grammarly.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
-  { id: "tettra", name: "Tettra", url: "https://tettra.ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
   { id: "copy", name: "Copy AI", url: "https://www.copy.ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Paid" as const },
   { id: "jasper", name: "Jasper", url: "https://www.jasper.ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
 ];
