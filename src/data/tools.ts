@@ -61,6 +61,8 @@ export const ALL_TOOLS: Tool[] = [
   { id: "Gemini", name: "Gemini", url: "https://gemini.google.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "Meta AI", name: "Meta AI", url: "https://meta.ai", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "MS Copilot", name: "MS Copilot", url: "https://copilot.microsoft.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
+  { id: "grok", name: "Grok", url: "https://grok.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
+
 
   // Video
   { id: "runway", name: "Runway ML", url: "https://runwayml.com", category: "Video", bestFor: "AI video generation", pricing: "Paid" as const },
