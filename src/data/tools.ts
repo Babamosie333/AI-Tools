@@ -79,5 +79,8 @@ export const ALL_TOOLS: Tool[] = [
   { id: "grammarly", name: "Grammarly", url: "https://www.grammarly.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
   { id: "copy", name: "Copy AI", url: "https://www.copy.ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Paid" as const },
   { id: "jasper", name: "Jasper", url: "https://www.jasper.ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
+  { id: "scribe", name: "Scribe", url: "https://scribehow.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
+  { id: "tinywow", name: "TinyWow", url: "https://tinywow.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
+
 ];
 
