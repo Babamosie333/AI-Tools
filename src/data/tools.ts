@@ -82,5 +82,6 @@ export const ALL_TOOLS: Tool[] = [
   { id: "scribe", name: "Scribe", url: "https://scribehow.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
   { id: "tinywow", name: "TinyWow", url: "https://tinywow.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
   { id: "supermeme", name: "Supermeme", url: "https://supermeme.ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
+  { id: "simplified", name: "Simplified", url: "https://simplified.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
 ];
 
