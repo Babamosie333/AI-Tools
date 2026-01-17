@@ -72,6 +72,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "luma", name: "Luma", url: "https://luma.ai", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
   { id: "pika", name: "Pika", url: "https://pika.art", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
   { id: "veed", name: "Veed.io", url: "https://veed.io", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
+  { id: "elai", name: "Elai.io", url: "https://elai.io", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
 
 
   // Productivity
