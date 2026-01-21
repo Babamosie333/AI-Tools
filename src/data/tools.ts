@@ -53,7 +53,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "starryai", name: "StarryAI", url: "https://starryai.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
 
 
-  // Chat & Writing
+  // Chat & AI Assistants
   { id: "chatgpt", name: "ChatGPT", url: "https://chatgpt.com", category: "Chat", bestFor: "General AI assistant", pricing: "Free tier" as const },
   { id: "claude", name: "Claude AI", url: "https://claude.ai", category: "Chat", bestFor: "Long-form writing & code", pricing: "Free tier" as const },
   { id: "perplexity", name: "Perplexity AI", url: "https://perplexity.ai", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
@@ -62,7 +62,10 @@ export const ALL_TOOLS: Tool[] = [
   { id: "Meta AI", name: "Meta AI", url: "https://meta.ai", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "MS Copilot", name: "MS Copilot", url: "https://copilot.microsoft.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "grok", name: "Grok", url: "https://grok.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
+
+  // Writing
   { id: "writesonic", name: "Writesonic", url: "https://writesonic.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
+  { id: "rytr", name: "Rytr", url: "https://rytr.me", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
 
 
   // Video
