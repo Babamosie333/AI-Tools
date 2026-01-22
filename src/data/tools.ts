@@ -62,6 +62,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "Meta AI", name: "Meta AI", url: "https://meta.ai", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "MS Copilot", name: "MS Copilot", url: "https://copilot.microsoft.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "grok", name: "Grok", url: "https://grok.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
+  { id: "youchat", name: "YouChat", url: "https://you.com/chat", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
 
   // Writing
   { id: "writesonic", name: "Writesonic", url: "https://writesonic.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
