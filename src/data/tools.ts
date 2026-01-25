@@ -69,6 +69,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "rytr", name: "Rytr", url: "https://rytr.me", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "simplified-writing", name: "Simplified Writing", url: "https://simplified.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "peppertype", name: "Peppertype.ai", url: "https://www.peppertype.ai", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
+  { id: "contentbot", name: "ContentBot", url: "https://contentbot.ai", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
 
 
   // Video
