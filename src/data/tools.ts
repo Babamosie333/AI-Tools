@@ -71,6 +71,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "peppertype", name: "Peppertype.ai", url: "https://www.peppertype.ai", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "contentbot", name: "ContentBot", url: "https://contentbot.ai", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "longshot", name: "LongShot AI", url: "https://www.longshot.ai", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
+  { id: "scalenut", name: "Scalenut", url: "https://www.scalenut.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
 
 
   // Video
