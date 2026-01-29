@@ -74,6 +74,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "scalenut", name: "Scalenut", url: "https://www.scalenut.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "textcortex", name: "TextCortex", url: "https://textcortex.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "hypotenuse", name: "Hypotenuse AI", url: "https://hypotenuse.ai", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
+  { id: "anyword", name: "Anyword", url: "https://anyword.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
 
 
   // Video
