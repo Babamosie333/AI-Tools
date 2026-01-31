@@ -52,6 +52,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "flux.1", name: "Flux.1", url: "https://flux1.ai", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "starryai", name: "StarryAI", url: "https://starryai.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "nightcafe", name: "NightCafe", url: "https://nightcafe.studio", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
+  { id: "photosonic", name: "Photosonic", url: "https://photosonic.writesonic.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
 
 
   // Chat & AI Assistants
@@ -64,6 +65,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "MS Copilot", name: "MS Copilot", url: "https://copilot.microsoft.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "grok", name: "Grok", url: "https://grok.com", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
   { id: "youchat", name: "YouChat", url: "https://you.com/chat", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
+  
   
 
   // Writing
