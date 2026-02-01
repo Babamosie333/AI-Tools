@@ -53,6 +53,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "starryai", name: "StarryAI", url: "https://starryai.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "nightcafe", name: "NightCafe", url: "https://nightcafe.studio", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "photosonic", name: "Photosonic", url: "https://photosonic.writesonic.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
+  { id: "artbreeder", name: "Artbreeder", url: "https://www.artbreeder.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
 
 
   // Chat & AI Assistants
