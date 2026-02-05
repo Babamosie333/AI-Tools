@@ -44,6 +44,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "slidesgo", name: "Slidesgo", url: "https://slidesgo.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "autodraw", name: "AutoDraw", url: "https://autodraw.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "microsoft designer", name: "Microsoft Designer", url: "https://designer.microsoft.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
+  { id: "scribble diffusion", name: "Scribble Diffusion", url: "https://scribblediffusion.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
 
   // Image (8 tools)
   { id: "midjourney", name: "Midjourney", url: "https://midjourney.com", category: "Image", bestFor: "Professional image generation", pricing: "Paid" as const },
