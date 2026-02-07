@@ -9,7 +9,7 @@ export type Tool = {
 };
 
 export const ALL_TOOLS: Tool[] = [
-  // Coding (15+ tools)
+  // Coding (15 tools)
   { id: "copilot", name: "GitHub Copilot", url: "https://github.com/features/copilot", category: "Coding", bestFor: "VS Code/Next.js autocomplete", pricing: "Paid" as const },
   { id: "cursor", name: "Cursor AI", url: "https://cursor.com", category: "Coding", bestFor: "React/Next.js AI IDE", pricing: "Free tier" as const },
   { id: "codeium", name: "Codeium", url: "https://codeium.com", category: "Coding", bestFor: "Free coding assistant", pricing: "Free" as const },
@@ -26,7 +26,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "polycode", name: "Polycode AI", url: "https://polycode.ai", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
   { id: "genie", name: "Genie AI", url: "https://genieai.co", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
 
-  // Design (12 tools)
+  // Design (20 tools)
   { id: "v0", name: "v0 by Vercel", url: "https://v0.dev", category: "Design", bestFor: "Figma → React/Shadcn", pricing: "Free tier" as const },
   { id: "bolt-new", name: "Bolt.new", url: "https://bolt.new", category: "Design", bestFor: "Text → Full app prototype", pricing: "Free" as const },
   { id: "framer-ai", name: "Framer AI", url: "https://framer.com/ai", category: "Design", bestFor: "Prompt → Website", pricing: "Free tier" as const },
@@ -46,8 +46,9 @@ export const ALL_TOOLS: Tool[] = [
   { id: "microsoft designer", name: "Microsoft Designer", url: "https://designer.microsoft.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "scribble diffusion", name: "Scribble Diffusion", url: "https://scribblediffusion.com", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "cleanup.pictures", name: "Cleanup.pictures", url: "https://cleanup.pictures", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
+  { id: "letsenhance", name: "Let's Enhance", url: "https://letsenhance.io", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
 
-  // Image (8 tools)
+  // Image (10 tools)
   { id: "midjourney", name: "Midjourney", url: "https://midjourney.com", category: "Image", bestFor: "Professional image generation", pricing: "Paid" as const },
   { id: "firefly", name: "Adobe Firefly", url: "https://firefly.adobe.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "canva", name: "Canva Magic Studio", url: "https://www.canva.com/magic-studio", category: "Image", bestFor: "Social graphics & thumbnails", pricing: "Free tier" as const },
@@ -60,7 +61,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "artbreeder", name: "Artbreeder", url: "https://www.artbreeder.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
 
 
-  // Chat & AI Assistants
+  // Chat & AI Assistants (10 tools)
   { id: "chatgpt", name: "ChatGPT", url: "https://chatgpt.com", category: "Chat", bestFor: "General AI assistant", pricing: "Free tier" as const },
   { id: "claude", name: "Claude AI", url: "https://claude.ai", category: "Chat", bestFor: "Long-form writing & code", pricing: "Free tier" as const },
   { id: "perplexity", name: "Perplexity AI", url: "https://perplexity.ai", category: "Chat", bestFor: "Research with citations", pricing: "Free tier" as const },
@@ -74,7 +75,7 @@ export const ALL_TOOLS: Tool[] = [
   
 
 
-  // Writing
+  // Writing (10 tools)
   { id: "writesonic", name: "Writesonic", url: "https://writesonic.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "rytr", name: "Rytr", url: "https://rytr.me", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "simplified-writing", name: "Simplified Writing", url: "https://simplified.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
@@ -87,7 +88,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "anyword", name: "Anyword", url: "https://anyword.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
 
 
-  // Video
+  // Video (10 tools)
   { id: "runway", name: "Runway ML", url: "https://runwayml.com", category: "Video", bestFor: "AI video generation", pricing: "Paid" as const },
   { id: "descript", name: "Descript", url: "https://descript.com", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
   { id: "invideo", name: "InVideo", url: "https://invideo.io", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
@@ -100,7 +101,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "flexclip", name: "FlexClip", url: "https://flexclip.com", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
 
 
-  // Productivity
+  // Productivity (10 tools)
   { id: "notion-ai", name: "Notion AI", url: "https://www.notion.so/product/ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Paid" as const },
   { id: "mem", name: "Mem", url: "https://mem.ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
   { id: "grammarly", name: "Grammarly", url: "https://www.grammarly.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
