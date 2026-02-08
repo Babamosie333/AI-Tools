@@ -25,6 +25,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "qodo", name: "Qodo", url: "https://qodo.ai", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
   { id: "polycode", name: "Polycode AI", url: "https://polycode.ai", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
   { id: "genie", name: "Genie AI", url: "https://genieai.co", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
+  { id: "windsurf", name: "windsurf", url: "https://codeium.com/x", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
 
   // Design (20 tools)
   { id: "v0", name: "v0 by Vercel", url: "https://v0.dev", category: "Design", bestFor: "Figma → React/Shadcn", pricing: "Free tier" as const },
