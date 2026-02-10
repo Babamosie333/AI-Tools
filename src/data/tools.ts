@@ -27,6 +27,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "genie", name: "Genie AI", url: "https://genieai.co", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
   { id: "windsurf", name: "windsurf", url: "https://codeium.com/x", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
   { id: "codegeex", name: "CodeGeeX", url: "https://codegeex.cn", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
+  { id: "welcome.ai", name: "Welcome.ai", url: "https://welcome.ai", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
 
   // Design (20 tools)
   { id: "v0", name: "v0 by Vercel", url: "https://v0.dev", category: "Design", bestFor: "Figma → React/Shadcn", pricing: "Free tier" as const },
