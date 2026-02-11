@@ -9,7 +9,7 @@ export type Tool = {
 };
 
 export const ALL_TOOLS: Tool[] = [
-  // Coding (17 tools)
+  // Coding (19 tools)
   { id: "copilot", name: "GitHub Copilot", url: "https://github.com/features/copilot", category: "Coding", bestFor: "VS Code/Next.js autocomplete", pricing: "Paid" as const },
   { id: "cursor", name: "Cursor AI", url: "https://cursor.com", category: "Coding", bestFor: "React/Next.js AI IDE", pricing: "Free tier" as const },
   { id: "codeium", name: "Codeium", url: "https://codeium.com", category: "Coding", bestFor: "Free coding assistant", pricing: "Free" as const },
@@ -28,6 +28,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "windsurf", name: "windsurf", url: "https://codeium.com/x", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
   { id: "codegeex", name: "CodeGeeX", url: "https://codegeex.cn", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
   { id: "welcome.ai", name: "Welcome.ai", url: "https://welcome.ai", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
+  { id: "success.ai", name: "Success.ai", url: "https://www.success.ai/", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
 
   // Design (20 tools)
   { id: "v0", name: "v0 by Vercel", url: "https://v0.dev", category: "Design", bestFor: "Figma → React/Shadcn", pricing: "Free tier" as const },
