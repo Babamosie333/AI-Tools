@@ -64,6 +64,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "nightcafe", name: "NightCafe", url: "https://nightcafe.studio", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "photosonic", name: "Photosonic", url: "https://photosonic.writesonic.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "artbreeder", name: "Artbreeder", url: "https://www.artbreeder.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
+  { id: "deepdreamgenerator", name: "Deep Dream Generator", url: "https://deepdreamgenerator.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
 
 
   // Chat & AI Assistants (10 tools)
