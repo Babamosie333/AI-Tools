@@ -53,7 +53,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "cleanup.pictures", name: "Cleanup.pictures", url: "https://cleanup.pictures", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "letsenhance", name: "Let's Enhance", url: "https://letsenhance.io", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
 
-  // Image (10 tools)
+  // Image (12 tools)
   { id: "midjourney", name: "Midjourney", url: "https://midjourney.com", category: "Image", bestFor: "Professional image generation", pricing: "Paid" as const },
   { id: "firefly", name: "Adobe Firefly", url: "https://firefly.adobe.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "canva", name: "Canva Magic Studio", url: "https://www.canva.com/magic-studio", category: "Image", bestFor: "Social graphics & thumbnails", pricing: "Free tier" as const },
@@ -65,6 +65,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "photosonic", name: "Photosonic", url: "https://photosonic.writesonic.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "artbreeder", name: "Artbreeder", url: "https://www.artbreeder.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "deepdreamgenerator", name: "Deep Dream Generator", url: "https://deepdreamgenerator.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
+  { id: "artflow", name: "Artflow AI", url: "https://artflow.ai", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
 
 
   // Chat & AI Assistants (10 tools)
