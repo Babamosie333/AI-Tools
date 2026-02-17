@@ -53,7 +53,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "cleanup.pictures", name: "Cleanup.pictures", url: "https://cleanup.pictures", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
   { id: "letsenhance", name: "Let's Enhance", url: "https://letsenhance.io", category: "Design", bestFor: "AI image enhancement", pricing: "Free tier" as const },
 
-  // Image (14 tools)
+  // Image (15 tools)
   { id: "midjourney", name: "Midjourney", url: "https://midjourney.com", category: "Image", bestFor: "Professional image generation", pricing: "Paid" as const },
   { id: "firefly", name: "Adobe Firefly", url: "https://firefly.adobe.com", category: "Image", bestFor: "Image editing/generation", pricing: "Free tier" as const },
   { id: "canva", name: "Canva Magic Studio", url: "https://www.canva.com/magic-studio", category: "Image", bestFor: "Social graphics & thumbnails", pricing: "Free tier" as const },
@@ -69,6 +69,7 @@ export const ALL_TOOLS: Tool[] = [
   //{ id: "paintschainer", name: "PaintsChainer", url: "https://paintschainer.preferred.tech", category: "Image", bestFor: "Anime-style image generation", pricing: "Free tier" as const },//
   { id: "deepart", name: "DeepArt", url: "https://deepart.io", category: "Image", bestFor: "Style transfer image generation", pricing: "Free tier" as const },
   { id: "toonme", name: "ToonMe", url: "https://toonme.com", category: "Image", bestFor: "Cartoon-style image generation", pricing: "Free tier" as const },
+  { id: "faceapp", name: "FaceApp", url: "https://www.faceapp.com", category: "Image", bestFor: "Photo editing & face transformation", pricing: "Free tier" as const },
 
 
   // Chat & AI Assistants (10 tools)
