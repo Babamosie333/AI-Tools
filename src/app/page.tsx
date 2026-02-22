@@ -118,7 +118,7 @@ export default function Home() {
             AI Tools Hub 2026
           </div>
           <h1 className="mb-6 bg-gradient-to-r from-white via-slate-100 to-slate-200 bg-clip-text text-4xl font-bold leading-tight text-transparent sm:text-5xl lg:text-6xl">
-            50+ AI tools for <span className="text-cyan-400">developers</span>
+            100+ AI tools for <span className="text-cyan-400">developers</span>
             <br />
             <span className="font-display">& creators</span>
           </h1>
