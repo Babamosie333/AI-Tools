@@ -91,7 +91,7 @@ export const ALL_TOOLS: Tool[] = [
   
 
 
-  // Writing (13 tools)
+  // Writing (14 tools)
   { id: "writesonic", name: "Writesonic", url: "https://writesonic.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "rytr", name: "Rytr", url: "https://rytr.me", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "simplified-writing", name: "Simplified Writing", url: "https://simplified.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
@@ -105,6 +105,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "wordtune", name: "Wordtune", url: "https://www.wordtune.com", category: "Writing", bestFor: "AI writing assistant & rephrasing", pricing: "Free tier" as const },
   { id: "quillbot", name: "QuillBot", url: "https://quillbot.com", category: "Writing", bestFor: "AI writing assistant & rephrasing", pricing: "Free tier" as const },
   { id: "lingva", name: "LingvaNex", url: "https://lingvanex.com", category: "Writing", bestFor: "AI translation & language tools", pricing: "Free tier" as const },
+  { id: "deepl", name: "DeepL", url: "https://www.deepl.com", category: "Writing", bestFor: "AI translation & language tools", pricing: "Free tier" as const },
 
 
   // Video (10 tools)
