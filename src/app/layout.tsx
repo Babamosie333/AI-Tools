@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
 
-export const meta: Metadata = {
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+// Metadata export (STAYS HERE)
+export const metadata: Metadata = {
   title: {
     default: "AI Tools Hub | 100+ AI tools for developers & creators",
     template: "%s | AI Tools Hub"
@@ -10,11 +23,11 @@ export const meta: Metadata = {
   openGraph: {
     title: "AI Tools Hub | 100+ AI tools for developers & creators",
     description: "Curated 100+ AI tools for developers & creators. Instant links, pricing & use cases. Created by Babamosie333",
-    url: "https://ai-tools-ecru-theta.vercel.app/", // ← Replace with your domain
+    url: "https://your-app.vercel.app",
     siteName: "AI Tools Hub",
     images: [
       {
-        url: "/opengraph-image.png", // ← Add this 1200x630 PNG to public/
+        url: "/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "AI Tools Hub"
@@ -26,20 +39,23 @@ export const meta: Metadata = {
   
   twitter: {
     card: "summary_large_image",
-    title: "AI Tools Hub | 100+ AI tools for developers & creators",
-    description: "Curated 100+ AI tools for developers & use cases. Created by Babamosie333",
     images: ["/opengraph-image.png"],
   },
-  
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
 };
+
+// DEFAULT EXPORT: Layout Component (REQUIRED)
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        {children}
+      </body>
+    </html>
+  );
+}
