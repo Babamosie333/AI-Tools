@@ -91,7 +91,7 @@ export const ALL_TOOLS: Tool[] = [
   
 
 
-  // Writing (19 tools)
+  // Writing (20 tools)
   { id: "writesonic", name: "Writesonic", url: "https://writesonic.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "rytr", name: "Rytr", url: "https://rytr.me", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
   { id: "simplified-writing", name: "Simplified Writing", url: "https://simplified.com", category: "Writing", bestFor: "Marketing copy & content", pricing: "Free tier" as const },
@@ -111,6 +111,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "microsoft translator", name: "Microsoft Translator", url: "https://www.microsoft.com/en-us/translator", category: "Writing", bestFor: "AI translation & language tools", pricing: "Free" as const },
   { id: "reverso", name: "Reverso", url: "https://www.reverso.net", category: "Writing", bestFor: "AI translation & language tools", pricing: "Free tier" as const },
   { id: "linguee", name: "Linguee", url: "https://www.linguee.com", category: "Writing", bestFor: "AI translation & language tools", pricing: "Free" as const },
+  { id: "prowritingaid", name: "ProWritingAid", url: "https://prowritingaid.com", category: "Writing", bestFor: "AI grammar & style checker", pricing: "Free tier" as const },
 
 
   // Video (10 tools)
