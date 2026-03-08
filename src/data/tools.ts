@@ -114,7 +114,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "prowritingaid", name: "ProWritingAid", url: "https://prowritingaid.com", category: "Writing", bestFor: "AI grammar & style checker", pricing: "Free tier" as const },
 
 
-  // Video (13 tools)
+  // Video (14 tools)
   { id: "runway", name: "Runway ML", url: "https://runwayml.com", category: "Video", bestFor: "AI video generation", pricing: "Paid" as const },
   { id: "descript", name: "Descript", url: "https://descript.com", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
   { id: "invideo", name: "InVideo", url: "https://invideo.io", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
@@ -129,6 +129,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "lumen5", name: "Lumen5", url: "https://lumen5.com", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
   //{ id: "magisto", name: "Magisto", url: "https://www.magisto.com", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
   { id: "clipchamp", name: "Clipchamp", url: "https://www.clipchamp.com", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
+  { id: "headliner", name: "Headliner", url: "https://www.headliner.app", category: "Video", bestFor: "Text-based video editing", pricing: "Free tier" as const },
 
 
   // Productivity (10 tools)
