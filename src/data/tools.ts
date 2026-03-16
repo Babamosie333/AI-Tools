@@ -151,5 +151,6 @@ export const ALL_TOOLS: Tool[] = [
   { id: "hyperwrite", name: "HyperWrite", url: "https://hyperwriteai.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
   //{ id: "tome", name: "Tome", url: "https://tome.app", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },//
   { id: "beautiful.ai", name: "Beautiful.ai", url: "https://beautiful.ai", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
+  { id: "gamma", name: "Gamma", url: "https://gamma.app", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
 ];
 
