@@ -138,7 +138,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "invideo", name: "InVideo", url: "https://invideo.io", category: "Video", bestFor: "AI video generation & editing", pricing: "Free tier" as const },
 
 
-  // Productivity (11 tools)
+  // Productivity (12 tools)
   { id: "notion-ai", name: "Notion AI", url: "https://www.notion.so/product/ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Paid" as const },
   { id: "mem", name: "Mem", url: "https://mem.ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
   { id: "grammarly", name: "Grammarly", url: "https://www.grammarly.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
@@ -152,5 +152,6 @@ export const ALL_TOOLS: Tool[] = [
   //{ id: "tome", name: "Tome", url: "https://tome.app", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },//
   { id: "beautiful.ai", name: "Beautiful.ai", url: "https://beautiful.ai", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
   { id: "gamma", name: "Gamma", url: "https://gamma.app", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
+  { id: "pitch", name: "Pitch", url: "https://pitch.com", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
 ];
 
