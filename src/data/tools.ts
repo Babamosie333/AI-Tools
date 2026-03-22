@@ -138,7 +138,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "invideo", name: "InVideo", url: "https://invideo.io", category: "Video", bestFor: "AI video generation & editing", pricing: "Free tier" as const },
 
 
-  // Productivity (16 tools)
+  // Productivity (17 tools)
   { id: "notion-ai", name: "Notion AI", url: "https://www.notion.so/product/ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Paid" as const },
   { id: "mem", name: "Mem", url: "https://mem.ai", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
   { id: "grammarly", name: "Grammarly", url: "https://www.grammarly.com", category: "Productivity", bestFor: "Docs & database AI", pricing: "Free tier" as const },
@@ -157,5 +157,6 @@ export const ALL_TOOLS: Tool[] = [
   { id: "autodraw", name: "AutoDraw", url: "https://autodraw.com", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
   { id: "microsoft designer", name: "Microsoft Designer", url: "https://designer.microsoft.com", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
   { id: "scribble diffusion", name: "Scribble Diffusion", url: "https://scribblediffusion.com", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
+  { id: "cleanup.pictures", name: "Cleanup.pictures", url: "https://cleanup.pictures", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
 ];
 
