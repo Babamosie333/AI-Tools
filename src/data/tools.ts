@@ -30,6 +30,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "welcome.ai", name: "Welcome.ai", url: "https://welcome.ai", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
   { id: "success.ai", name: "Success.ai", url: "https://www.success.ai/", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
   { id: "codingfleet", name: "CodingFleet", url: "https://codingfleet.com", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
+  { id: "codeassist", name: "CodeAssist", url: "https://codeassist.dev", category: "Coding", bestFor: "Codebase search & chat", pricing: "Free tier" as const },
 
   // Design (20 tools)
   { id: "v0", name: "v0 by Vercel", url: "https://v0.dev", category: "Design", bestFor: "Figma → React/Shadcn", pricing: "Free tier" as const },
@@ -163,3 +164,4 @@ export const ALL_TOOLS: Tool[] = [
   { id: "microsoft designer", name: "Microsoft Designer", url: "https://designer.microsoft.com", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
 ];
 
+  // Entertainment(1 tools)
