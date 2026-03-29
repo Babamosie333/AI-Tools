@@ -1,3 +1,5 @@
+import { url } from "inspector/promises";
+
 export type Tool = {
   id: string;
   name: string;
@@ -162,6 +164,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "letsenhance", name: "Let's Enhance", url: "https://letsenhance.io", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
   { id: "tome", name: "Tome", url: "https://tome.app", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
   { id: "microsoft designer", name: "Microsoft Designer", url: "https://designer.microsoft.com", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
-];
 
-  // Entertainment(1 tools)
+  // Entertainment (1 tools)
+  { id: "ai dungeon", name: "AI Dungeon", url: "https://play.aidungeon.io", category: "Entertainment", bestFor: "AI text adventure gaming", pricing: "Free tier" as const },
+];
