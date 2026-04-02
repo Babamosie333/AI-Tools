@@ -170,4 +170,5 @@ export const ALL_TOOLS: Tool[] = [
   { id: "replika", name: "Replika", url: "https://replika.ai", category: "Entertainment", bestFor: "AI companionship & chat", pricing: "Free tier" as const },
   { id: "ai music generator", name: "AI Music Generator", url: "https://aimusicgenerator.com", category: "Entertainment", bestFor: "AI-generated music creation", pricing: "Free tier" as const },
   { id: "artbreeder", name: "Artbreeder", url: "https://www.artbreeder.com", category: "Entertainment", bestFor: "AI-generated art creation", pricing: "Free tier" as const },
+  { id: "deepdreamgenerator", name: "Deep Dream Generator", url: "https://deepdreamgenerator.com", category: "Entertainment", bestFor: "AI-generated art creation", pricing: "Free tier" as const },
 ];
