@@ -172,5 +172,5 @@ export const ALL_TOOLS: Tool[] = [
   { id: "artbreeder", name: "Artbreeder", url: "https://www.artbreeder.com", category: "Entertainment", bestFor: "AI-generated art creation", pricing: "Free tier" as const },
   { id: "deepdreamgenerator", name: "Deep Dream Generator", url: "https://deepdreamgenerator.com", category: "Entertainment", bestFor: "AI-generated art creation", pricing: "Free tier" as const },
   { id: "starryai", name: "StarryAI", url: "https://starryai.com", category: "Entertainment", bestFor: "AI-generated art creation", pricing: "Free tier" as const },
-  
+  {}
 ];
