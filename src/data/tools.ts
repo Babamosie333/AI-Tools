@@ -165,7 +165,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "tome", name: "Tome", url: "https://tome.app", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
   { id: "microsoft designer", name: "Microsoft Designer", url: "https://designer.microsoft.com", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
 
-  // Entertainment (16 tools) 
+  // Entertainment (17 tools) 
   { id: "ai dungeon", name: "AI Dungeon", url: "https://play.aidungeon.io", category: "Entertainment", bestFor: "AI text adventure gaming", pricing: "Free tier" as const },
   { id: "replika", name: "Replika", url: "https://replika.ai", category: "Entertainment", bestFor: "AI companionship & chat", pricing: "Free tier" as const },
   { id: "ai music generator", name: "AI Music Generator", url: "https://aimusicgenerator.com", category: "Entertainment", bestFor: "AI-generated music creation", pricing: "Free tier" as const },
@@ -182,4 +182,5 @@ export const ALL_TOOLS: Tool[] = [
   { id: "pixian", name: "Pixian AI", url: "https://pixian.ai", category: "Entertainment", bestFor: "AI image generation & editing", pricing: "Free tier" as const },
   { id: "pixray", name: "Pixray", url: "https://pixray.gob.io", category: "Entertainment", bestFor: "AI image generation & editing", pricing: "Free tier" as const },
   { id: "synthesia", name: "Synthesia", url: "https://synthesia.io", category: "Entertainment", bestFor: "AI video avatars & generation", pricing: "Paid" as const },
+  { id: "lumen5", name: "Lumen5", url: "https://lumen5.com", category: "Entertainment", bestFor: "AI video creation & editing", pricing: "Free tier" as const },
 ];
