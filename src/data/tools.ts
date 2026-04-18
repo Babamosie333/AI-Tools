@@ -184,5 +184,6 @@ export const ALL_TOOLS: Tool[] = [
   { id: "synthesia", name: "Synthesia", url: "https://synthesia.io", category: "Entertainment", bestFor: "AI video avatars & generation", pricing: "Paid" as const },
   { id: "lumen5", name: "Lumen5", url: "https://lumen5.com", category: "Entertainment", bestFor: "AI video creation & editing", pricing: "Free tier" as const },
   { id: "reelgood", name: "Reelgood", url: "https://reelgood.com", category: "Entertainment", bestFor: "AI video generation & editing", pricing: "Free tier" as const },
+  { id: "magisto", name: "Magisto", url: "https://www.magisto.com", category: "Entertainment", bestFor: "AI video generation & editing", pricing: "Free tier" as const },
   
 ];
