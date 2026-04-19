@@ -165,7 +165,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "tome", name: "Tome", url: "https://tome.app", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
   { id: "microsoft designer", name: "Microsoft Designer", url: "https://designer.microsoft.com", category: "Productivity", bestFor: "AI storytelling & presentations", pricing: "Free tier" as const },
 
-  // Entertainment (19 tools) //TODO
+  // Entertainment (20 tools) //TODO
   { id: "ai dungeon", name: "AI Dungeon", url: "https://play.aidungeon.io", category: "Entertainment", bestFor: "AI text adventure gaming", pricing: "Free tier" as const },
   { id: "replika", name: "Replika", url: "https://replika.ai", category: "Entertainment", bestFor: "AI companionship & chat", pricing: "Free tier" as const },
   { id: "ai music generator", name: "AI Music Generator", url: "https://aimusicgenerator.com", category: "Entertainment", bestFor: "AI-generated music creation", pricing: "Free tier" as const },
