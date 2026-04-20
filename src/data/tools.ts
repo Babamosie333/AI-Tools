@@ -188,6 +188,6 @@ export const ALL_TOOLS: Tool[] = [
   { id: "invideo", name: "InVideo", url: "https://invideo.io", category: "Entertainment", bestFor: "AI video generation & editing", pricing: "Free tier" as const },
 
 
-  // Game (0 tools)
-  
+  // Games (0 tools)
+
 ];
