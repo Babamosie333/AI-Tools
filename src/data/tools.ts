@@ -186,4 +186,8 @@ export const ALL_TOOLS: Tool[] = [
   { id: "reelgood", name: "Reelgood", url: "https://reelgood.com", category: "Entertainment", bestFor: "AI video generation & editing", pricing: "Free tier" as const },
   { id: "magisto", name: "Magisto", url: "https://www.magisto.com", category: "Entertainment", bestFor: "AI video generation & editing", pricing: "Free tier" as const },
   { id: "invideo", name: "InVideo", url: "https://invideo.io", category: "Entertainment", bestFor: "AI video generation & editing", pricing: "Free tier" as const },
+
+
+  // Game (0 tools)
+  
 ];
