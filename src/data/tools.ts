@@ -188,6 +188,8 @@ export const ALL_TOOLS: Tool[] = [
   { id: "invideo", name: "InVideo", url: "https://invideo.io", category: "Entertainment", bestFor: "AI video generation & editing", pricing: "Free tier" as const },
 
 
-  // Games (0 tools)
+  // Animation (1 tools)
+  { id: "runway", name: "Runway ML", url: "https://runwayml.com", category: "Animation", bestFor: "AI animation generation", pricing: "Paid" as const },
+
 
 ];
