@@ -190,6 +190,7 @@ export const ALL_TOOLS: Tool[] = [
 
   // Animation (1 tools)
   { id: "runway", name: "Runway ML", url: "https://runwayml.com", category: "Animation", bestFor: "AI animation generation", pricing: "Paid" as const },
+  { id: "luma", name: "Luma", url: "https://luma.ai", category: "Animation", bestFor: "AI 3D animation generation", pricing: "Free tier" as const },
 
 
 ];
