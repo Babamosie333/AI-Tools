@@ -194,6 +194,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "pika", name: "Pika", url: "https://pika.art", category: "Animation", bestFor: "AI 3D animation generation", pricing: "Free tier" as const },
   { id: "veed", name: "Veed.io", url: "https://veed.io", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
   { id: "elai", name: "Elai.io", url: "https://elai.io", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
+  { id: "wisecut", name: "Wisecut", url: "https://wisecut.video", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
 
 
 ];
