@@ -195,6 +195,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "veed", name: "Veed.io", url: "https://veed.io", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
   { id: "elai", name: "Elai.io", url: "https://elai.io", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
   { id: "wisecut", name: "Wisecut", url: "https://wisecut.video", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
+  { id: "flexclip", name: "FlexClip", url: "https://flexclip.com", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
 
 
 ];
