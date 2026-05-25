@@ -197,6 +197,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "wisecut", name: "Wisecut", url: "https://wisecut.video", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
   { id: "flexclip", name: "FlexClip", url: "https://flexclip.com", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
   { id: "lumen5", name: "Lumen5", url: "https://lumen5.com", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
+  { id: "clipchamp", name: "Clipchamp", url: "https://www.clipchamp.com", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
 
 
 ];
