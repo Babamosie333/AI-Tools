@@ -11,6 +11,7 @@ export type Tool = {
 };
 
 export const ALL_TOOLS: Tool[] = [
+  { id: "auferet", name: "Auferet", url: "https://auferet.com", category: "Entertainment", bestFor: "Solo text adventures & AI tabletop RPGs with persistent memory", pricing: "Free tier" as const },
   // Coding (20 tools)
   { id: "copilot", name: "GitHub Copilot", url: "https://github.com/features/copilot", category: "Coding", bestFor: "VS Code/Next.js autocomplete", pricing: "Paid" as const },
   { id: "cursor", name: "Cursor AI", url: "https://cursor.com", category: "Coding", bestFor: "React/Next.js AI IDE", pricing: "Free tier" as const },
