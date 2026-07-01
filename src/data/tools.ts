@@ -199,6 +199,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "lumen5", name: "Lumen5", url: "https://lumen5.com", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
   { id: "clipchamp", name: "Clipchamp", url: "https://www.clipchamp.com", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
   { id: "headliner", name: "Headliner", url: "https://www.headliner.app", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
+  { id: "recast.studio", name: "Recast Studio", url: "https://recast.studio", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
 
 
 ];
