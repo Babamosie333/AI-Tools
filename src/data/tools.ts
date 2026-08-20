@@ -188,7 +188,7 @@ export const ALL_TOOLS: Tool[] = [
   { id: "invideo", name: "InVideo", url: "https://invideo.io", category: "Entertainment", bestFor: "AI video generation & editing", pricing: "Free tier" as const },
 
 
-  // Animation (1 tools)
+  // Animation (12 tools)
   { id: "runway", name: "Runway ML", url: "https://runwayml.com", category: "Animation", bestFor: "AI animation generation", pricing: "Paid" as const },
   { id: "luma", name: "Luma", url: "https://luma.ai", category: "Animation", bestFor: "AI 3D animation generation", pricing: "Free tier" as const },
   { id: "pika", name: "Pika", url: "https://pika.art", category: "Animation", bestFor: "AI 3D animation generation", pricing: "Free tier" as const },
@@ -200,6 +200,5 @@ export const ALL_TOOLS: Tool[] = [
   { id: "clipchamp", name: "Clipchamp", url: "https://www.clipchamp.com", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
   { id: "headliner", name: "Headliner", url: "https://www.headliner.app", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
   { id: "recast.studio", name: "Recast Studio", url: "https://recast.studio", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
-
-
+  { id: "pictory", name: "Pictory", url: "https://pictory.ai", category: "Animation", bestFor: "AI video editing & animation", pricing: "Free tier" as const },
 ];
